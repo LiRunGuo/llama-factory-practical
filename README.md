@@ -1,6 +1,6 @@
-## LLaMA-Factory 微调实战（项目复刻）
+## LLaMA-Factory 微调实战
 
-本项目依据 `llama-factory微调.txt` 内容复刻与整理，提供从环境检查、安装、WebUI 启动、数据准备与训练命令，到评测、导出合并、GGUF 转换与 Ollama 部署、API 服务调用的完整示例与脚本。
+本项目提供从环境检查、安装、WebUI 启动、数据准备与训练命令，到评测、导出合并、GGUF 转换与 Ollama 部署、API 服务调用的完整示例与脚本。
 
 ---
 
