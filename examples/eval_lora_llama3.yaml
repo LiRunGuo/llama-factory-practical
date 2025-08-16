@@ -1,0 +1,17 @@
+### examples/train_lora/llama3_lora_eval.yaml（适配）
+
+model_name_or_path: meta-llama/Meta-Llama-3-8B-Instruct
+adapter_name_or_path: saves/llama3-8b/lora/sft
+
+finetuning_type: lora
+
+task: mmlu_test
+template: fewshot
+lang: en
+n_shot: 5
+
+save_dir: saves/llama3-8b/lora/eval
+
+batch_size: 4
+
+
